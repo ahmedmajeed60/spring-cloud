@@ -1,0 +1,49 @@
+https://github.com/simplyi/mobile-app-ws-quick-start.git
+
+Spring Cloud Course Repositorties
+https://github.com/simplyi/SpringCloudVideoCourse
+https://github.com/simplyi/SpringCloudVideoCourse/tree/update-spring-boot-v3.0.1
+
+Spring Cloud API Gateway
+https://github.com/simplyi/SpringCloudAPIGateway
+https://github.com/simplyi/SpringCloudAPIGateway/tree/update-spring-boot-v3.0.1
+
+Implementing User Login 
+https://github.com/simplyi/SpringCloudVideoCourse/tree/section-13-user-login-spring-boot-3
+
+Microservices Communication 
+https://github.com/simplyi/SpringCloudVideoCourse/tree/section-24-microservices-communication-spring-boot-3
+
+Actuator
+https://github.com/simplyi/SpringCloudVideoCourse/tree/section-21-actuator-spring-boot-3
+
+Resilience4J 
+https://github.com/simplyi/SpringCloudVideoCourse/tree/resilience4j-SpringBoot-3
+
+Distributed Tracing with Micrometer and Zipkin
+https://github.com/simplyi/SpringCloudVideoCourse/tree/section-28-spring-boot3-zipkin
+
+Secure Eureka Dashboard 
+https://github.com/simplyi/SpringCloudVideoCourse/tree/section-30-secure-eureka-spring-boot-3
+
+Method Level Security
+https://github.com/simplyi/SpringCloudVideoCourse/tree/section-33-method-level-security-spring-boot-3
+
+Microservices
+https://docs.google.com/presentation/d/1pDRdibbx5nin-2LeYwpeSqVEfX5BB_S5UYlJv_s4MVc/edit#slide=id.p
+
+Eureka Discovery Service
+https://docs.google.com/presentation/d/1Wl-xycik-bxqVAjY7OpdI3o9TscOAdINhEwuDziKM1A/edit#slide=id.p
+
+Spring Could API gateway
+https://docs.google.com/presentation/d/1yl0br1woTA07JPMi1M7U1mFiGy5mb_qf-Z17r4IsdPk/edit#slide=id.gb1d1eaf0e9_1_6
+
+Documentation
+https://cloud.spring.io/spring-cloud-gateway/reference/html/#gateway-request-predicates-factories
+https://cloud.spring.io/spring-cloud-gateway/reference/html/#gatewayfilter-factories
+https://cloud.spring.io/spring-cloud-gateway/reference/html/#global-filters
+https://cloud.spring.io/spring-cloud-gateway/reference/html/#httpheadersfilters
+https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html
+https://cloud.spring.io/spring-cloud-gateway/multi/multi__actuator_api.html
+https://docs.oracle.com/javase/8/docs/technotes/guides/security/StandardNames.html
+https://www.appsdeveloperblog.com/docker-commands-cheat-sheet/
