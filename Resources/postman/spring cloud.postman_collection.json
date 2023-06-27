@@ -1,0 +1,588 @@
+{
+	"info": {
+		"_postman_id": "92fdfb1c-fba6-44f9-8444-fb4f88eac887",
+		"name": "spring cloud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "config server",
+			"item": [
+				{
+					"name": "localhost:8012/PhotoAppAPIConfigServer/default",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8012/PhotoAppAPIConfigServer/default",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"PhotoAppAPIConfigServer",
+								"default"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8012/users-ws/default",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8012/users-ws/default",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"users-ws",
+								"default"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8012/users-ws/prouduction",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8012/users-ws/prouduction",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"users-ws",
+								"prouduction"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8012/PhotoAppAPIConfigServer/production",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8012/PhotoAppAPIConfigServer/production",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"PhotoAppAPIConfigServer",
+								"production"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8012/discoveryservice/defaut",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8012/discoveryservice/defaut",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"discoveryservice",
+								"defaut"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8012/actuator/busrefresh",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:8012/actuator/busrefresh",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"actuator",
+								"busrefresh"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8012/encrypt",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "hfgry463hf746hf573ydh475fhy5739hfgry463hf746hf573ydh475fhy5739hfgry463hf746hf573ydh475fhy5739"
+						},
+						"url": {
+							"raw": "localhost:8012/encrypt",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"encrypt"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8012/decrypt",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "AQBOLSFbP9M85BjuYZZ/cIesF8KtqVRT+zolCPX/NzfyPmZB7/B/p66jv1gPZ/aWEFz+276yyFF6GDdBHJQMM+LRPosaC5PEcSLcGt36dFA3Gly7gPtyZAo60QBRViLoO/rYgani5hFloggb2nAJoz4kwbzQrkiSp5RHsl47Tdv7Zudslu0JdCMz1Ubllk6tRP99BSK1qTzRxxXcIAFQxImFRwMpL1bK4DBpnE+diMsCD0XFcVcH0JjcGjQQWxVgCvXWvMFTquUfTF2CaXjlOHT3GzjhW5HlC8SSH9+JkBsR9Dp7UXM0q1CbcL7suJJDAkswGoTVcDilHKTPoyv8udgn1YdDUkOEh6jVHkqLzF9ouKQgt+aALkZSRFDoFgSSRmZN8+weNHij1Q1VRmFNK5uBsXdwV2IMMAzsmZ4LOPI/Zpt4xcSTnTwB22Pxaibg7VjytCFU2uE/vcH0YxLXEep2vBSHRbafXQ03p+sew80KJQ=="
+						},
+						"url": {
+							"raw": "localhost:8012/decrypt",
+							"host": [
+								"localhost"
+							],
+							"port": "8012",
+							"path": [
+								"decrypt"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "api gateway",
+			"item": [
+				{
+					"name": "users",
+					"item": [
+						{
+							"name": "localhost:8082/users-ws/users",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"firstName\" : \"ahmed\",\r\n    \"lastName\" : \"majeed\",\r\n    \"password\" : \"dummy\",\r\n    \"email\" : \"ahmedmajeed60@gmail.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8082/users-ws/users",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"users-ws",
+										"users"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8082/users-ws/users/login",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n   \"email\":\"ahmedmajeed60@gmail.com\",\r\n   \"password\":\"dummy\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8082/users-ws/users/login",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"users-ws",
+										"users",
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8082/users-ws/users/status/check",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzZjQ4OTNlYS0zMDU4LTQ1NTEtYTdhZC1lYzYxOWViOTA0ZmMiLCJleHAiOjE2ODcyNTk3MTksImlhdCI6MTY4NzE3MzMxOX0.y1QjnE0WnsEgSj-Cck3YJoT8hPQBL9XZcKku5WMtE3-ITKukmYiNGjE3dpYnFUqmvLOrouWvV9j3n2PCUyOB7w",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"firstName\" : \"ahmed\",\r\n    \"lastName\" : \"majeed\",\r\n    \"password\" : \"dummy\",\r\n    \"email\" : \"ahmedmajeed60@gmail.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8082/users-ws/users/status/check",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"users-ws",
+										"users",
+										"status",
+										"check"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8082/users-ws/users/be4976c0-3393-429a-a34d-a0f0ef9a68eb",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiZTQ5NzZjMC0zMzkzLTQyOWEtYTM0ZC1hMGYwZWY5YTY4ZWIiLCJleHAiOjE2ODY3NDIyMzB9.IDH772YOn2VmwEZNjJSVrbHhjUQrubJ_KaUYAS6tpvKdcDcn27hWuRBfvOx9lM5yZTiy-L_eYPe2PNTyUfjrKQ",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8082/users-ws/users/be4976c0-3393-429a-a34d-a0f0ef9a68eb",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"users-ws",
+										"users",
+										"be4976c0-3393-429a-a34d-a0f0ef9a68eb"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8082/users-ws/actuator/health",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8082/users-ws/actuator/health",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"users-ws",
+										"actuator",
+										"health"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8082/users-ws/actuator/httpexchanges",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8082/users-ws/actuator/httpexchanges",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"users-ws",
+										"actuator",
+										"httpexchanges"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8082/users-ws/actuator/circuitbreakerevents",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8082/users-ws/actuator/circuitbreakerevents",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"users-ws",
+										"actuator",
+										"circuitbreakerevents"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "own",
+					"item": [
+						{
+							"name": "localhost:8082/actuator/health",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8082/actuator/health",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"actuator",
+										"health"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8082/actuator/mappings",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8082/actuator/mappings",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"actuator",
+										"mappings"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "localhost:8082/actuator/gateway/routes",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8082/actuator/gateway/routes",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"actuator",
+										"gateway",
+										"routes"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
